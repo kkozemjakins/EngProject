@@ -1,0 +1,52 @@
+/*header buttons
+
+.header-buttons{
+    font-family: 'Monda';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 39px;
+
+    color: #7C9070;
+}
+
+.header-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+*/
+
+header {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  
+nav ul {
+    font-family: 'Monda', sans-serif;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+nav ul li a {
+    text-decoration: none;
+    color: #7C9070;
+    padding: 5px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+  }
+  
+nav ul li a:hover {
+    color: #333333;
+  }
